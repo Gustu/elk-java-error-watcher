@@ -5,3 +5,11 @@ FROM docker.elastic.co/logstash/logstash:${ELK_VERSION}
 
 # Add your logstash plugins setup here
 # Example: RUN logstash-plugin install logstash-filter-json
+
+USER root
+
+RUN groupadd --gid 1001 tomcat
+
+RUN usermod -a -G tomcat logstash
+
+USER logstash
