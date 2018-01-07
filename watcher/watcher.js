@@ -13,7 +13,7 @@ const watcher = {
         body: {
             query: {
                 bool: {
-                    must: {match: {loglevel: "ERROR WARN"}},
+                    must: {match: {loglevel: "ERROR"}},
                     filter: {
                         range: {"@timestamp": {gte: "now-30s"}}
                     }
