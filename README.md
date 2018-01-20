@@ -1,7 +1,7 @@
 # Error Watcher
 Error watcher which sends alerts to Slack
 
-![alt text](https://imgur.com/3uyGrCd)
+![alt text](https://i.imgur.com/3uyGrCd.jpg)
 
 ### Usage
 
