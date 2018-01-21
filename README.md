@@ -1,4 +1,4 @@
-# Error Watcher
+# ELK Error Monitor
 Error watcher which sends alerts to Slack.
 
 ![alt text](https://i.imgur.com/3uyGrCd.jpg)
