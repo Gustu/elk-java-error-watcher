@@ -1,5 +1,5 @@
-# ELK Slack Error Watcher
-Error watcher which sends alerts to Slack.
+# ELK Java Error Watcher
+Java error watcher which sends alerts to Slack.
 
 ![alt text](https://i.imgur.com/3uyGrCd.jpg)
 
