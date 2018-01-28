@@ -28,3 +28,5 @@ This watcher is configured to consume Java logs with custom timestamp:
 20180107 12:01:26.346 [pool-48-thread-1] DEBUG com.example.email.EmailPollingManager - Executing mail polling
 ```
 To consume other pattern modify `logstash/config.logstash.yml` and `logstash/config/patterns/time`.
+
+**Modify `watcher/slack.js` to change Slack formatting and `watcher/watcher.js` to change Watcher configuration.**
