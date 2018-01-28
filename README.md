@@ -1,9 +1,11 @@
-# ELK Error Watcher
+# ELK Slack Error Watcher
 Error watcher which sends alerts to Slack.
 
 ![alt text](https://i.imgur.com/3uyGrCd.jpg)
 
 Watcher is using ELK stack to read and structure logs.
+
+Based on [Docker ELK repo](https://github.com/deviantony/docker-elk)
 
 ### Usage
 
